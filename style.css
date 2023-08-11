@@ -11,6 +11,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     .name {
        font-size: 90px;
@@ -31,6 +34,7 @@ footer{
        background-color: maroon;
        color: white;
        padding-top: 10px;
+       margin-top: auto;
   }
   .social a{
        font-size: 50px;
