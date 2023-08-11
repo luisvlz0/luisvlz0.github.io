@@ -64,4 +64,145 @@ footer{
   .fa-instagram:hover {
        color: #a8a8a8;
   }
-  
+#experiences {
+
+     height: 80vmin;
+     justify-content: center;
+     color: var(--white);
+     padding: 10px;
+ }
+ #expContainer {
+
+     background-color: var(--light_maroon);
+     border-radius: 25%;
+     height: 65vmin;
+     width: 65vmin;
+     text-align: center;
+     border: solid 1px white;
+     margin: auto;
+ 
+ }
+ .exp-carousel {
+
+     position: relative;
+     height: 65vmin;
+     width: 65vmin;
+     margin: auto;
+ 
+ }
+ .exp-carousel__slide-content {
+
+     height: 75%;
+     width: 80%;
+     margin: auto;
+ 
+ }
+ 
+ .exp-carousel__slide-content h3 {
+ 
+     padding: 1vh;
+ 
+ }
+ 
+ .exp-carousel__slide-content p {
+ 
+     padding: 1vh 0 0 0;
+     font-size: small;
+     /* Go back to this property and make the font bigger or smaller as needed */
+ 
+ }
+ .exp-carousel__image {
+
+     width: 100%;
+     height: 100%;
+     border-radius: 25%;
+     object-fit: cover;
+     border: solid 2px white;
+ 
+ }
+ .exp-carousel__track-container {
+
+     border-radius: 25%;
+     height: 90%;
+     position: relative;
+     overflow: hidden;
+ 
+ }
+ .exp-carousel__track {
+
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     position: relative;
+     height: 100%;
+     transition: 250ms ease-in-out;
+ 
+ }
+ 
+ .exp-carousel__slide {
+ 
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+ 
+ }
+ .exp-carousel__button {
+
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     background: transparent;
+     border: 0;
+     cursor: pointer;
+ 
+ }
+ 
+ .exp-carousel__button--left {
+ 
+     left: -50px;
+ 
+ 
+ }
+ 
+ .exp-carousel__button--right {
+ 
+     right: -50px;
+ 
+ }
+ 
+ .exp-carousel__button img {
+ 
+     width: 20px;
+ 
+ }
+ .exp-carousel__nav {
+
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ .exp-carousel__indicator {
+ 
+     border: 0;
+     border-radius: 50%;
+     width: 15px;
+     height: 15px;
+     background: rgba(255, 255, 255, 0.3);
+     margin: 0 12px;
+ 
+ }
+ 
+ .exp-carousel__indicator.exp-current-slide {
+ 
+     background: rgba(255, 255, 255, 0.9);
+ 
+ }
+ 
+ .is-hidden {
+ 
+     display: none;
+ 
+ }
+ 
