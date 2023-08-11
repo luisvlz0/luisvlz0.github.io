@@ -12,8 +12,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-rows: 1fr auto;
     }
     .name {
        font-size: 90px;
@@ -34,7 +34,7 @@ footer{
        background-color: maroon;
        color: white;
        padding-top: 10px;
-       margin-bottom: auto;
+       
   }
   .social a{
        font-size: 50px;
