@@ -15,8 +15,12 @@
         display: grid;
         grid-template-rows: 1fr auto;
         z-index: -1;
+      }
+    
+        
+      
 
-    }
+    
     .name {
        font-size: 90px;
        color: rgb(255, 255, 255);
