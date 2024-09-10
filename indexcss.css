@@ -19,6 +19,7 @@ body, html {
   background-color: #140C35; 
 }
 
+
 .container {
   max-width: 1000px;
   padding-left: 1.4rem;
@@ -368,6 +369,7 @@ footer {
 .info-major {
   font-style: italic;
   font-size: 1.2em;
+  padding-bottom: 200px;
 }
 
 .portfolio-section {
@@ -801,4 +803,62 @@ section#services p {
 .grid-item p {
   font-size: 16px;
   line-height: 1.5;
+}
+
+/* Styling for the prompt section at the bottom */
+.cs-business-section {
+  background-color: #f0f8ff; /* Light color to make it stand out */
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cs-business-section h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.cs-business-section p {
+  font-size: 18px;
+  color: #34495e;
+  line-height: 1.6;
+}
+
+/* Prompt Section (Styled with new color scheme) */
+.prompt-section {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #2A2A3D; /* Darker gray background */
+  border: 5px solid #FFC107; /* Bright yellow border */
+  border-radius: 12px;
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 100px; /* Space from the footer */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+  margin-left: 305px;
+}
+
+/* Prompt Section Heading */
+.prompt-section h3 {
+  color: #FFC107; /* Bright yellow color */
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Prompt Text Box (Styled to match the darker theme) */
+.prompt-text-box {
+  background-color: #34495e; /* Dark slate blue background for text box */
+  border: 2px solid #FFD700; /* Golden border */
+  border-radius: 5px;
+  padding: 20px;
+  color: #FFFFFF; /* White text for readability */
+  font-size: 16px;
+  max-width: 850px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  text-align: left; /* Align text to the left */
 }

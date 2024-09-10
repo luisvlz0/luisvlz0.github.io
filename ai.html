@@ -3,16 +3,16 @@
 <head>
   <title>AI & Quantitative Analysis</title>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <link rel="stylesheet" href="indexcss.css">
+  <link id ="stylesheet" rel="stylesheet" href="indexcss.css">
 </head>
 
 <body>
-  <!-- Responsive Navigation Bar -->
-  <header id="navbar">
+   <!-- Responsive Navigation Bar -->
+   <header id="navbar">
     <nav class="navbar-container container">
-      <a href="/" class="home-link">
+      <a href="index.html" class="home-link">
         <div class="navbar-logo"></div>
-        AI & Quantitative Analysis
+        Home
       </a>
       <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
         <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
 
   <!-- Spinning Star Button -->
   <div class="star-button-container">
-    <button id="star-button">
+    <button onclick="toggleStyleSheet()" id="star-button">
       <img src="star-spinning.gif" alt="Spinning Star" />
     </button>
   </div>
@@ -71,21 +71,35 @@
     </div>
   </div>
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="footerContainer">
-        <div class="socialIcons">
-            <a href="https://www.facebook.com/profile.php?id=100021405811969&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/luis.vlz0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/luis-valdez-1836152h" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/luisvlz0/" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </div>
-        <div class="contact-info">
-            <a href="tel:+14697352467">469-735-2467</a> | 
-            <a href="mailto:luisvaldez2h@gmail.com">luisvaldez2h@gmail.com</a>
-        </div>
+    <!-- How Computer Science and Business Tie Together (Quant) -->
+    <div class="cs-business-section">
+      <h2>How Computer Science and Business Tie Together (Quant)</h2>
+      <p>Computer science and business share a crucial intersection in the world of quantitative analysis (quant). The rise of data science, machine learning, and AI has allowed businesses to leverage computational tools and methods to enhance decision-making, optimize processes, and create predictive models. This synergy not only drives efficiency but also provides deep insights that fuel strategic innovation and competitive advantage. From algorithmic trading to customer segmentation and beyond, the combination of business intelligence and computational algorithms creates a powerful toolkit for the modern world.</p>
     </div>
-  </footer>
+
+  <!-- Prompt Section -->
+<div class="prompt-section">
+  <h3>Original Prompt Provided</h3>
+  <div class="prompt-text-box">
+      <p>Demonstrate how computer science and business tie together (quant), show off your capabilities and design a HTML page for me.</p>
+  </div>
+</div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footerContainer">
+          <div class="socialIcons">
+              <a href="https://www.facebook.com/profile.php?id=100021405811969&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/luis.vlz0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/luis-valdez-1836152h" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/luisvlz0/" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="contact-info">
+              <a href="tel:+14697352467">469-735-2467</a>  
+              <a href="mailto:luisvaldez2h@gmail.com">luisvaldez2h@gmail.com</a>
+          </div>
+      </div>
+    </footer>
 
   <!-- Link to the JavaScript file -->
   <script src="script.js"></script>
